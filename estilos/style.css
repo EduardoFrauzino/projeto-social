@@ -39,3 +39,26 @@ main {
     width: 268px;
     height: 470px;
 }
+
+#redes-sociais > a > img {
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    position: relative;
+    top: 150px;
+   box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-10px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.815);
+    transition: transform .4s;
+}
+
+
+#redes-sociais {
+    text-align: right;
+}
+
